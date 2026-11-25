@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img"
+     aria-labelledby="ttl dsc" font-family="Inter, -apple-system, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif">
+  <title id="ttl">IPAForge concept mockup — import and inspect</title>
+  <desc id="dsc">Concept only, not a screenshot of working software. A proposed desktop screen with an IPA library, a drag-in target, and an inspector panel that separates facts read from the bundle from claims that need a profile or device. All values are invented sample data.</desc>
+  <defs>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7BE78"/><stop offset="1" stop-color="#E08A3C"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="24" y="24" width="1552" height="952" rx="18"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#06080B"/>
+  <rect x="24" y="24" width="1552" height="952" rx="18" fill="#0B0E13" stroke="#222C38"/>
+
+  <g clip-path="url(#win)">
+    <!-- title bar -->
+    <rect x="24" y="24" width="1552" height="50" fill="#0D1117"/>
+    <circle cx="52" cy="49" r="5" fill="#39434F"/>
+    <circle cx="70" cy="49" r="5" fill="#39434F"/>
+    <circle cx="88" cy="49" r="5" fill="#39434F"/>
+    <text x="120" y="54" font-size="13" fill="#B9C6D4">IPAForge <tspan fill="#68788B">/ Library</tspan></text>
+    <rect x="1244" y="37" width="308" height="24" rx="12" fill="#131A23" stroke="#2A3542"/>
+    <text x="1398" y="53" text-anchor="middle" font-size="10" letter-spacing="1.6" fill="#8B9CAF">CONCEPT · NOT A WORKING APP</text>
+    <line x1="24" y1="74" x2="1576" y2="74" stroke="#1B242E"/>
+
+    <!-- sidebar -->
+    <rect x="24" y="74" width="260" height="902" fill="#0D1218"/>
+    <line x1="284" y1="74" x2="284" y2="976" stroke="#1B242E"/>
+    <rect x="46" y="98" width="32" height="32" rx="10" fill="url(#amber)"/>
+    <rect x="53" y="106" width="18" height="4" rx="2" fill="#3A1E0A"/>
+    <rect x="53" y="113" width="18" height="4" rx="2" fill="#3A1E0A" opacity="0.75"/>
+    <rect x="53" y="120" width="11" height="4" rx="2" fill="#3A1E0A" opacity="0.5"/>
+    <text x="90" y="115" font-size="15" font-weight="600" fill="#E8EEF6">IPAForge</text>
+    <text x="90" y="132" font-size="9.5" letter-spacing="1.3" fill="#64748A">PREVIEW CONCEPT</text>
+
+    <rect x="38" y="166" width="232" height="38" rx="10" fill="#1A232F"/>
+    <rect x="37" y="174" width="3" height="22" rx="1.5" fill="url(#amber)"/>
+    <g fill="#F0A14B"><rect x="50" y="179" width="13" height="4" rx="2"/><rect x="50" y="186" width="13" height="4" rx="2" opacity="0.6"/></g>
+    <text x="72" y="190" font-size="12.5" fill="#E8EEF6">Library</text>
+
+    <g stroke="#7E8FA2" stroke-width="1.7" fill="none" stroke-linecap="round">
+      <circle cx="55" cy="223" r="5"/><line x1="59" y1="227" x2="63" y2="231"/>
+    </g>
+    <text x="72" y="232" font-size="12.5" fill="#8796A8">Inspect</text>
+
+    <g stroke="#7E8FA2" stroke-width="1.7" stroke-linecap="round">
+      <line x1="47" y1="264" x2="62" y2="264"/><line x1="47" y1="270" x2="62" y2="270"/><line x1="47" y1="276" x2="62" y2="276"/>
+    </g>
+    <g fill="#0D1218" stroke="#7E8FA2" stroke-width="1.7">
+      <circle cx="56" cy="264" r="2.4"/><circle cx="51" cy="270" r="2.4"/><circle cx="58" cy="276" r="2.4"/>
+    </g>
+    <text x="72" y="274" font-size="12.5" fill="#8796A8">Modify</text>
+
+    <path d="M55 299 L64 302 V310 C64 317 60 321 55 323 C50 321 46 317 46 310 V302 Z"
+          fill="none" stroke="#7E8FA2" stroke-width="1.7" stroke-linejoin="round"/>
+    <text x="72" y="316" font-size="12.5" fill="#8796A8">Sign &amp; Export</text>
+
+    <rect x="49" y="345" width="12" height="17" rx="3" fill="none" stroke="#7E8FA2" stroke-width="1.6"/>
+    <line x1="53" y1="358" x2="57" y2="358" stroke="#7E8FA2" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="72" y="358" font-size="12.5" fill="#8796A8">Devices</text>
+
+    <g stroke="#7E8FA2" stroke-width="1.7" stroke-linecap="round">
+      <line x1="48" y1="389" x2="62" y2="389"/><line x1="48" y1="395" x2="62" y2="395"/><line x1="48" y1="401" x2="56" y2="401"/>
+    </g>
+    <text x="72" y="400" font-size="12.5" fill="#8796A8">Log</text>
+
+    <circle cx="55" cy="437" r="6" fill="none" stroke="#7E8FA2" stroke-width="1.7"/>
+    <circle cx="55" cy="437" r="2" fill="#7E8FA2"/>
+    <text x="72" y="442" font-size="12.5" fill="#8796A8">Settings</text>
+
+    <rect x="38" y="486" width="232" height="76" rx="10" fill="#101822" stroke="#1E2834"/>
+    <circle cx="250" cy="506" r="4" fill="#F0A14B"/>
+    <text x="52" y="512" font-size="11" font-weight="600" fill="#B9C6D4">No device connected</text>
+    <text x="52" y="530" font-size="9.5" fill="#64748A">detection is not yet tested</text>
+    <text x="52" y="546" font-size="9.5" fill="#64748A">on any platform</text>
+
+    <text x="48" y="886" font-size="10" fill="#5A6A7D">v0.0.0 · foundation</text>
+    <text x="48" y="902" font-size="10" fill="#4A5A6C">no source vendored yet</text>
+
+    <!-- content -->
+    <text x="320" y="130" font-size="26" font-weight="700" fill="#EAF0F7">Library</text>
+    <text x="320" y="154" font-size="12.5" fill="#8394A7">Import an IPA you own or are authorised to work with. Inspection is local and read-only.</text>
+
+    <rect x="874" y="98" width="118" height="40" rx="10" fill="#131B24" stroke="#29343F"/>
+    <text x="933" y="123" text-anchor="middle" font-size="12" fill="#BCC9D6">Open folder</text>
+    <rect x="1004" y="98" width="128" height="40" rx="10" fill="url(#amber)"/>
+    <text x="1068" y="123" text-anchor="middle" font-size="12" font-weight="600" fill="#2A1607">Import IPA</text>
+
+    <rect x="320" y="186" width="812" height="150" rx="14" fill="#0F1620" stroke="#2C3846" stroke-dasharray="7 7"/>
+    <rect x="703" y="210" width="46" height="46" rx="12" fill="#18222D" stroke="#33404F"/>
+    <path d="M726 224 V238 M719 233 L726 240 L733 233" fill="none" stroke="#8B9CB0" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="726" y="288" text-anchor="middle" font-size="15" font-weight="600" fill="#D9E3EE">Drop an .ipa to begin</text>
+    <text x="726" y="310" text-anchor="middle" font-size="11.5" fill="#7E8FA2">or choose a file — nothing is uploaded, and nothing is written back</text>
+
+    <text x="320" y="376" font-size="10" letter-spacing="1.7" fill="#6B7C8F">SAMPLE ROWS · ILLUSTRATIVE DATA</text>
+    <text x="336" y="404" font-size="9.5" letter-spacing="1.4" fill="#63748A">APP</text>
+    <text x="616" y="404" font-size="9.5" letter-spacing="1.4" fill="#63748A">BUNDLE IDENTIFIER</text>
+    <text x="856" y="404" font-size="9.5" letter-spacing="1.4" fill="#63748A">VERSION</text>
+    <text x="1112" y="404" text-anchor="end" font-size="9.5" letter-spacing="1.4" fill="#63748A">STATE</text>
+    <line x1="320" y1="418" x2="1132" y2="418" stroke="#1B242F"/>
+
+    <rect x="336" y="430" width="34" height="34" rx="9" fill="#22303E"/>
+    <text x="353" y="452" text-anchor="middle" font-size="13" font-weight="600" fill="#9FB2C4">F</text>
+    <text x="382" y="444" font-size="13" fill="#E4EBF3">Fieldnotes</text>
+    <text x="382" y="461" font-size="10.5" fill="#77889B">18.4 MB · arm64 · sample import</text>
+    <text x="616" y="452" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#A9B8C8">com.example.fieldnotes</text>
+    <text x="856" y="452" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#A9B8C8">2.4.0 (412)</text>
+    <rect x="1028" y="438" width="84" height="22" rx="6" fill="#14251E" stroke="#2A4638"/>
+    <text x="1070" y="453" text-anchor="middle" font-size="9.5" fill="#6FD3A0">Inspected</text>
+    <line x1="320" y1="480" x2="1132" y2="480" stroke="#1B242F"/>
+
+    <rect x="336" y="492" width="34" height="34" rx="9" fill="#2E2A22"/>
+    <text x="353" y="514" text-anchor="middle" font-size="13" font-weight="600" fill="#C6B394">O</text>
+    <text x="382" y="506" font-size="13" fill="#E4EBF3">Orbit Reader</text>
+    <text x="382" y="523" font-size="10.5" fill="#77889B">42.1 MB · arm64 · sample import</text>
+    <text x="616" y="514" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#A9B8C8">com.example.orbitreader</text>
+    <text x="856" y="514" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#A9B8C8">1.9.3 (77)</text>
+    <rect x="1006" y="500" width="106" height="22" rx="6" fill="#241E12" stroke="#453720"/>
+    <text x="1059" y="515" text-anchor="middle" font-size="9.5" fill="#E7B37A">Needs review</text>
+    <line x1="320" y1="542" x2="1132" y2="542" stroke="#1B242F"/>
+
+    <rect x="336" y="554" width="34" height="34" rx="9" fill="#1E2833"/>
+    <text x="353" y="576" text-anchor="middle" font-size="13" font-weight="600" fill="#8FA0B2">S</text>
+    <text x="382" y="568" font-size="13" fill="#E4EBF3">Sandbox Demo</text>
+    <text x="382" y="585" font-size="10.5" fill="#77889B">9.8 MB · arm64, arm64e · sample import</text>
+    <text x="616" y="576" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#A9B8C8">com.example.sandboxdemo</text>
+    <text x="856" y="576" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#A9B8C8">0.1.0 (3)</text>
+    <rect x="1042" y="562" width="70" height="22" rx="6" fill="#1A222D" stroke="#2C3846"/>
+    <text x="1077" y="577" text-anchor="middle" font-size="9.5" fill="#93A1B3">Unsigned</text>
+    <line x1="320" y1="604" x2="1132" y2="604" stroke="#1B242F"/>
+
+    <rect x="320" y="648" width="812" height="100" rx="12" fill="#101822" stroke="#232E3B"/>
+    <text x="348" y="682" font-size="12.5" font-weight="600" fill="#C9D5E2">Nothing here touches your device or the network</text>
+    <text x="348" y="704" font-size="11" fill="#7E8FA2">Inspection is read-only. Device detection, installation and signing are separate phases, each</text>
+    <text x="348" y="722" font-size="11" fill="#7E8FA2">unvalidated for this fork — see docs/PLATFORM_SUPPORT_MATRIX.md.</text>
+    <rect x="1008" y="664" width="96" height="24" rx="7" fill="#141D27" stroke="#2A3542"/>
+    <text x="1056" y="680" text-anchor="middle" font-size="9.5" letter-spacing="1.2" fill="#8B9CB0">OFFLINE</text>
+
+    <!-- inspector -->
+    <rect x="1168" y="74" width="408" height="902" fill="#0C1118"/>
+    <line x1="1168" y1="74" x2="1168" y2="976" stroke="#1B242E"/>
+    <text x="1192" y="116" font-size="9.5" letter-spacing="2" fill="#6C7D90">INSPECTOR</text>
+    <rect x="1192" y="130" width="360" height="62" rx="12" fill="#141D27" stroke="#26313D"/>
+    <rect x="1206" y="145" width="32" height="32" rx="8" fill="#22303E"/>
+    <text x="1222" y="166" text-anchor="middle" font-size="12" font-weight="600" fill="#9FB2C4">F</text>
+    <text x="1248" y="156" font-size="12" font-weight="600" fill="#DCE6F0">Fieldnotes.ipa</text>
+    <text x="1248" y="174" font-size="10" fill="#78899C">sample bundle · 18.4 MB</text>
+
+    <text x="1192" y="224" font-size="10.5" fill="#E8EEF6">Info</text>
+    <text x="1244" y="224" font-size="10.5" fill="#77889B">Entitlements</text>
+    <text x="1336" y="224" font-size="10.5" fill="#77889B">Profile</text>
+    <text x="1398" y="224" font-size="10.5" fill="#77889B">Files</text>
+    <text x="1448" y="224" font-size="10.5" fill="#77889B">Signing</text>
+    <line x1="1192" y1="234" x2="1552" y2="234" stroke="#1D2733"/>
+    <line x1="1192" y1="234" x2="1221" y2="234" stroke="#F0A14B" stroke-width="2"/>
+
+    <g fill="#75869A" font-size="10">
+      <text x="1192" y="268">Bundle ID</text>
+      <text x="1192" y="306">Version</text>
+      <text x="1192" y="344">Minimum iOS</text>
+      <text x="1192" y="382">Architectures</text>
+      <text x="1192" y="420">Signature</text>
+      <text x="1192" y="458">Bundle size</text>
+    </g>
+    <g text-anchor="end" font-size="11" fill="#CFDAE6">
+      <text x="1552" y="268" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5">com.example.fieldnotes</text>
+      <text x="1552" y="306">2.4.0 · build 412</text>
+      <text x="1552" y="344">15.0</text>
+      <text x="1552" y="382">arm64 (single slice)</text>
+      <text x="1552" y="420">Not signed</text>
+      <text x="1552" y="458">18.4 MB</text>
+    </g>
+
+    <rect x="1192" y="492" width="360" height="104" rx="12" fill="#1C1710" stroke="#3A2E1E"/>
+    <circle cx="1214" cy="517" r="5" fill="#F0A14B"/>
+    <text x="1230" y="521" font-size="11" font-weight="600" fill="#F0C08A">arm64e support is not established</text>
+    <text x="1214" y="546" font-size="10.5" fill="#A9977F">No device architecture is verified for this fork. This</text>
+    <text x="1214" y="563" font-size="10.5" fill="#A9977F">panel reports what the bundle contains — not what</text>
+    <text x="1214" y="580" font-size="10.5" fill="#A9977F">any device can install.</text>
+
+    <text x="1192" y="632" font-size="9.5" letter-spacing="2" fill="#6C7D90">ENTITLEMENTS PREVIEW</text>
+    <text x="1192" y="664" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" fill="#A9B8C8">aps-environment</text>
+    <rect x="1462" y="652" width="90" height="20" rx="5" fill="#1A222D" stroke="#2C3846"/>
+    <text x="1507" y="666" text-anchor="middle" font-size="9" fill="#8B9CB0">needs profile</text>
+    <line x1="1192" y1="682" x2="1552" y2="682" stroke="#18212C"/>
+    <text x="1192" y="700" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" fill="#A9B8C8">application-identifier</text>
+    <rect x="1478" y="688" width="74" height="20" rx="5" fill="#1A222D" stroke="#2C3846"/>
+    <text x="1515" y="702" text-anchor="middle" font-size="9" fill="#8B9CB0">unverified</text>
+    <line x1="1192" y1="718" x2="1552" y2="718" stroke="#18212C"/>
+    <text x="1192" y="736" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" fill="#A9B8C8">get-task-allow</text>
+    <rect x="1496" y="724" width="56" height="20" rx="5" fill="#1A222D" stroke="#2C3846"/>
+    <text x="1524" y="738" text-anchor="middle" font-size="9" fill="#8B9CB0">review</text>
+
+    <text x="1192" y="806" font-size="10" fill="#5E6E80">Read-only. Nothing here is signed or installed.</text>
+    <text x="1192" y="944" font-size="9.5" fill="#4A5A6C">Concept values · no profile, certificate or device present</text>
+
+    <!-- status bar -->
+    <line x1="24" y1="920" x2="1576" y2="920" stroke="#1A232E"/>
+    <text x="302" y="950" font-size="10" letter-spacing="1.2" fill="#5F7084">READY · OFFLINE · READ-ONLY INSPECTION</text>
+    <text x="1552" y="950" text-anchor="end" font-size="10" fill="#4E5E71">Concept render · sample data · not a working build</text>
+  </g>
+</svg>

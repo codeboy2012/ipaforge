@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">IPAForge icon concept A — Stack and Spark</title>
+  <desc id="dsc">Concept artwork, not a released icon. Three layered plates suggest the layers of an app bundle, with a forge spark above them.</desc>
+  <defs>
+    <linearGradient id="a-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B2431"/>
+      <stop offset="1" stop-color="#07090D"/>
+    </linearGradient>
+    <linearGradient id="a-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8C182"/>
+      <stop offset="1" stop-color="#DE8638"/>
+    </linearGradient>
+    <radialGradient id="a-glow" cx="0.68" cy="0.18" r="0.75">
+      <stop offset="0" stop-color="#F0A14B" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#F0A14B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#a-bg)"/>
+  <rect width="512" height="512" rx="116" fill="url(#a-glow)"/>
+  <rect x="128" y="306" width="240" height="62" rx="20" fill="#4C2E1B"/>
+  <rect x="140" y="256" width="240" height="62" rx="20" fill="#8A5022"/>
+  <rect x="152" y="206" width="240" height="62" rx="20" fill="url(#a-plate)"/>
+  <rect x="152" y="206" width="240" height="16" rx="8" fill="#FFE6C4" opacity="0.3"/>
+  <path d="M362 128 L369 150 L391 157 L369 164 L362 186 L355 164 L333 157 L355 150 Z" fill="#FFD9A0"/>
+  <circle cx="406" cy="190" r="4" fill="#FFD9A0" opacity="0.6"/>
+  <circle cx="318" cy="160" r="3" fill="#FFD9A0" opacity="0.45"/>
+</svg>

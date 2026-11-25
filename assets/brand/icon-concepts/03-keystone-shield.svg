@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">IPAForge icon concept C — Keystone Shield</title>
+  <desc id="dsc">Concept artwork, not a released icon. A shield outline in steel teal holds an amber check, standing for profile validation.</desc>
+  <defs>
+    <linearGradient id="c-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16202A"/>
+      <stop offset="1" stop-color="#06090C"/>
+    </linearGradient>
+    <linearGradient id="c-check" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8C182"/>
+      <stop offset="1" stop-color="#DE8638"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#c-bg)"/>
+  <path d="M256 84 L406 138 L406 268 C406 356 340 412 256 434 C172 412 106 356 106 268 L106 138 Z"
+        fill="#121B24" stroke="#5AD1C4" stroke-width="12" stroke-linejoin="round" stroke-opacity="0.9"/>
+  <path d="M196 258 L238 302 L320 208" fill="none" stroke="url(#c-check)" stroke-width="24"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="196" y1="356" x2="316" y2="356" stroke="#5AD1C4" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+</svg>

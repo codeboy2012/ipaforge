@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build output (paths are placeholders until the toolchain is known)
+build/
+dist/
+DerivedData/
+*.o
+*.a
+*.dSYM/
+
+# Local credentials and device material — never commit these
+*.p12
+*.pfx
+*.cer
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+secrets/
+device-logs/
+*.ipa
+*.xcarchive
+
+# Temporary render/cache output
+.cache/
+tmp/

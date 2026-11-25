@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">IPAForge icon concept B — Layered Monogram</title>
+  <desc id="dsc">Concept artwork, not a released icon. A geometric I and F are cut from two overlapping plates, with a small steel accent.</desc>
+  <defs>
+    <linearGradient id="b-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#182029"/>
+      <stop offset="1" stop-color="#07090D"/>
+    </linearGradient>
+    <linearGradient id="b-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8C182"/>
+      <stop offset="1" stop-color="#DE8638"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#b-bg)"/>
+  <g transform="translate(0,12)" fill="#6B3E1D" opacity="0.6">
+    <rect x="140" y="146" width="56" height="216" rx="18"/>
+    <rect x="242" y="146" width="56" height="216" rx="18"/>
+    <rect x="242" y="146" width="126" height="56" rx="18"/>
+    <rect x="242" y="226" width="94" height="56" rx="18"/>
+  </g>
+  <g fill="url(#b-plate)">
+    <rect x="140" y="146" width="56" height="216" rx="18"/>
+    <rect x="242" y="146" width="56" height="216" rx="18"/>
+    <rect x="242" y="146" width="126" height="56" rx="18"/>
+    <rect x="242" y="226" width="94" height="56" rx="18"/>
+  </g>
+  <circle cx="378" cy="378" r="9" fill="#5AD1C4"/>
+</svg>
